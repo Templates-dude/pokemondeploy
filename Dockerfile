@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/JonnycatMeow/codingisfun.git
+RUN git clone https://github.com/Templates-dude/povemonv1.git
 
-WORKDIR /codingisfun
+WORKDIR /povemonv1
 
 RUN npm install
 
